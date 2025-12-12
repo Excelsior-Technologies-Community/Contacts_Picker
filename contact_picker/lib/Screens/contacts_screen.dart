@@ -164,7 +164,7 @@ class _ContactPickerState extends State<ContactPicker> {
         style: widget.contactNumberStyle ??
             TextStyle(fontSize: 12, color: Colors.grey),
       ),
-      onTap: () => Navigator.pop(context, c),
+      // onTap: () => Navigator.pop(context, c),
     );
   }
 

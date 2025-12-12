@@ -171,11 +171,6 @@ class _ContactPickerState extends State<ContactPicker> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Contacts Picker"),
-        centerTitle: true,
-      ),
-
       body: isLoading
           ? widget.loadingWidget ?? Center(child: CircularProgressIndicator())
           : Column(
